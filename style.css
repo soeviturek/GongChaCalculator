@@ -11,6 +11,10 @@ body {
     width: 100%;
     max-width: 500px; /* Adjust the maximum width as needed */
     margin: 0 auto;
+    border-spacing: 0 10px; /* Add spacing between table rows */
+}
+#cashtable tr {
+    border-bottom: 1px solid #ccc; /* Optional: Add a border between rows */
 }
 
 /* Responsive styles for small screens */
