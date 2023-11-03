@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Optional background color */
+}
+
+#cashtable {
+    width: 100%;
+    max-width: 500px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+}
+
+/* Responsive styles for small screens */
+@media screen and (max-width: 600px) {
+    #cashtable {
+        max-width: 90%; /* Adjust the maximum width for small screens */
+    }
+
+    /* Hide the Banknote and Total Sum sections on small screens */
+    .banknote,
+    .totalSumTitle,
+    .totalSum,
+    .cashOnHandTitle,
+    .cashOnHand {
+        display: none;
+    }
+
+    /* Adjust other styles for better mobile layout */
+    .qty {
+        width: 50%; /* Adjust as needed */
+    }
+
+    .remnant {
+        width: 50%; /* Adjust as needed */
+    }
+}
