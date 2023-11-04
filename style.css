@@ -10,6 +10,7 @@ body {
 #cashtable {
     width: 100%;
     max-width: 1000px; /* Adjust the maximum width as needed */
+    max-height: 1000px;
     margin: 0 auto;
     border-spacing: 0 10px; /* Add spacing between table rows */
 }
@@ -27,11 +28,7 @@ body {
     }
 
     /* Hide the Banknote and Total Sum sections on small screens */
-    .banknote,
-    .totalSumTitle,
-    .totalSum,
-    .cashOnHandTitle,
-    .cashOnHand {
+    .banknote{
         display: none;
     }
 
