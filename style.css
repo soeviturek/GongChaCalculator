@@ -9,12 +9,15 @@ body {
 
 #cashtable {
     width: 100%;
-    max-width: 500px; /* Adjust the maximum width as needed */
+    max-width: 1000px; /* Adjust the maximum width as needed */
     margin: 0 auto;
     border-spacing: 0 10px; /* Add spacing between table rows */
 }
 #cashtable tr {
     border-bottom: 1px solid #ccc; /* Optional: Add a border between rows */
+}
+#cashtable input {
+    width: 5em; /* Adjust the width as needed, e.g., 5em for a default width */
 }
 
 /* Responsive styles for small screens */
@@ -34,10 +37,10 @@ body {
 
     /* Adjust other styles for better mobile layout */
     .qty {
-        width: 50%; /* Adjust as needed */
+        width: 3em; /* Adjust as needed */
     }
 
     .remnant {
-        width: 50%; /* Adjust as needed */
+        width: 3em; /* Adjust as needed */
     }
 }
