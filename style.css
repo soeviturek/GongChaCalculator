@@ -6,21 +6,33 @@ body {
     margin: 0;
     background-color: #f0f0f0; /* Optional background color */
 }
-
+/* 
 #cashtable {
     width: 100%;
-    max-width: 1000px; /* Adjust the maximum width as needed */
+    max-width: 1000px;
     max-height: 1000px;
     margin: 0 auto;
-    border-spacing: 0 10px; /* Add spacing between table rows */
-}
+    border-spacing: 0 10px;
+} 
+*/
+
 #cashtable tr {
-    border-bottom: 1px solid #ccc; /* Optional: Add a border between rows */
+    border-spacing: 5em;
+    /* border-bottom: 1px solid #ccc; */
+    
+}
+.banknote{
+    padding: 10px;
 }
 #cashtable input {
     width: 5em; /* Adjust the width as needed, e.g., 5em for a default width */
 }
-
+table.table-striped {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    
+}
 /* Responsive styles for small screens */
 @media screen and (max-width: 600px) {
     #cashtable {
